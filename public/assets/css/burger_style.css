@@ -1,10 +1,11 @@
 body {
-	background: #25c38e;
-	background: -webkit-linear-gradient(top left, #25c38e 0%, #53e3a6 100%);
+	background: #140e68;
+	/*background: -webkit-linear-gradient(top left, #25c38e 0%, #53e3a6 100%);
 	background: -moz-linear-gradient(top left, #25c38e 0%, #53e3a6 100%);
 	background: -o-linear-gradient(top left, #25c38e 0%, #53e3a6 100%);
-	background: linear-gradient(to bottom right, #25c38e 0%, #53e3a6 100%);
-	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(to bottom right, #25c38e 0%, #53e3a6 100%);*/
+	font-family: 'Homemade Apple', cursive;
+	/*font-family: 'Open Sans', sans-serif;*/
 	width: 100%
 	height: 100%;
 	margin: 0 auto;
@@ -25,7 +26,7 @@ main {
 
 nav {
 	text-align: center;
-	background: #25c38e;
+	background: #ff4500;
 }
 
 .shadow1 {
@@ -39,7 +40,8 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Permanent Marker', cursive;
+	/*font-family: 'Quicksand', sans-serif;*/
 	color: #fff;
 }
 
@@ -50,12 +52,14 @@ h1 {
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
-}
-
-button {
+	font-family: 'Homemade Apple', cursive;
 
 }
+
+li {
+	color: white;
+}
+
 
 button:hover {    
 	animation-name: buttonHover;
@@ -72,10 +76,6 @@ button:hover {
 	padding: 20px;
 }
 
-#page-body {
-
-}
-
 
 .drawn-border {
 	display: block;
@@ -84,51 +84,9 @@ button:hover {
 	line-height:1.5em;
 	background:hsla(67, 95%, 95%, 1);
 	color: hsla(0, 95%, 35%, 1);
-	border: solid 5px rgba(246,200,71,1);
+	border: solid 5px orange;
 }
 
-.parallax { 
-    text-align: center;
-    padding: 30px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-
-}
-
-.parallax::after {
-	content: "";
-	opacity: 0.5;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1; 
-	justify-content: center;
-	height: 300px;
-	background-image: url(../images/burger-background.jpg);
-	background-color: #fff;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;	
-
-	animation-name: parallaxBack;
-	animation-duration: 3s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-}
-
-@keyframes parallaxBack {
-    from {background-position: 50% 0px;}
-    to {background-position: 50% -100px;}
-}
-
-
-.parallax img {
-
-}
 
 .burger-options {
 	display: flex;
@@ -143,7 +101,7 @@ button:hover {
 }
 
 label {
-	color: teal;
+	color: black;
 	position: absolute;
 	top: 0;
 	font-size: 18px;
@@ -165,7 +123,7 @@ label {
 input[type=text] {
   padding:  24px 16px 18px 16px;
   font-size: 20px;
-  color: teal;
+  color: black;
 } 
 
 input[type=text]:focus {
@@ -177,7 +135,8 @@ button {
 	text-transform: uppercase;
 	margin: 10px 0px;
 	color: white;
-	background: teal;
+	background: red;
+	font-family: 'Homemade Apple', cursive;
 }
 
 .clearfix:after {
